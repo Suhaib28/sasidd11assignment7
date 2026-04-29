@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suhaib Siddiqui</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="logo">SS</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <div class="hero-grid">
+      <div class="hero-left">
+        <p class="tag">Computer Science @ ASU</p>
+        <h1>Suhaib<br><span>Siddiqui</span></h1>
+        <p class="desc">
+          I once believed that home could never change, but visiting my grandmother challenged that idea.
+          Growing up in Dubai, going back home was always a special experience. Every holiday, we would visit,
+          but this time was different because it was my last visit, so it holds a special place in my heart.
+          What made this trip particularly memorable was that I got to surprise my grandmother with a bouquet
+          of flowers, take her on a beach date, visit the historic
+          <a href="https://www.expo2020dubai.com" target="_blank">Dubai Expo 2020</a>,
+          and end the day with my favorite Kashmiri chai at a café I have loved since childhood.
+        </p>
+        <ul class="list">
+          <li>Surprised my grandmother with a bouquet of flowers</li>
+          <li>Beach date with grandma along the Dubai coastline</li>
+          <li>Visited multiple pavilions at Dubai Expo 2020</li>
+          <li>Kashmiri chai at my favorite childhood cafe</li>
+        </ul>
+        <p class="italic-note"><em>Navigate to the Work section to see the full photo journey of my trip.</em></p>
+        <a href="#work" class="btn">View My Journey</a>
+      </div>
+      <div class="hero-right">
+        <div class="photo-wrap">
+          <img src="me.jpg" alt="Suhaib Siddiqui">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="section-title">
+      <h2>My Trip Back Home</h2>
+      <p>A photo journey through my last visit to Dubai</p>
+    </div>
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="bouquet.jpeg" alt="Bouquet for Grandma">
+          <span class="stop-label">Stop 01</span>
+        </div>
+        <div class="card-text">
+          <h3>Surprising Grandma with Flowers</h3>
+          <p>One of the most special moments of the trip was surprising my grandmother with a bouquet of flowers. The look on her face made the long journey completely worth it.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="beach.jpeg" alt="Beach Date">
+          <span class="stop-label">Stop 02</span>
+        </div>
+        <div class="card-text">
+          <h3>Beach Date with Grandma</h3>
+          <p>After the surprise, grandma and I went on a beach date along the beautiful Dubai coastline. It was a peaceful and unforgettable moment between the two of us.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="expo.gif" alt="Dubai Expo 2020">
+          <span class="stop-label">Stop 03</span>
+        </div>
+        <div class="card-text">
+          <h3>Dubai Expo 2020</h3>
+          <p>We visited Dubai Expo 2020, the largest world exposition ever held in the Middle East. We explored multiple pavilions from countries around the world and took a well-deserved coffee break in between.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img-wrap">
+          <img src="chai.gif" alt="Kashmiri Chai">
+          <span class="stop-label">Stop 04</span>
+        </div>
+        <div class="card-text">
+          <h3>Kashmiri Chai at My Favorite Cafe</h3>
+          <p>We ended the perfect day at my favorite cafe, where I have been enjoying Kashmiri chai since I was a child growing up in Dubai. Some things never change.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-title">
+      <h2>Contact Me</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p class="about-stmt">This site was created by <strong>Suhaib Siddiqui</strong> for JMC 102 at Arizona State University in the Spring 2026 semester.</p>
+        <div class="contact-item"><span>📧</span><span>sasidd11@asu.edu</span></div>
+        <div class="contact-item"><span>🎓</span><span>Computer Science, ASU</span></div>
+        <div class="contact-item"><span>📍</span><span>Phoenix, Arizona</span></div>
+      </div>
+      <form id="contactForm">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" id="fname" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" id="femail" placeholder="your@email.com" required>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea id="fmessage" rows="5" placeholder="Your message..." required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+        <p id="formSuccess" style="display:none; color:#00c9b1;">Message sent! Thank you.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Suhaib Siddiqui</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
